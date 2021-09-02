@@ -76,6 +76,10 @@ body {
     border-bottom: 1px solid var(--gerdau-blue);
 }
 
+#email_input {
+    text-transform: lowercase;
+}
+
 #spacer_text {
     border: 1px solid var(--gerdau-blue);
     font-size: 1.5em;
