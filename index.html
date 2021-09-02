@@ -55,7 +55,7 @@
                             type="text"
                             id="name_input"
                             name="name"
-                            placeholder="Nome:"
+                            placeholder="Nome e sobrenome:"
                             class="input-default half-input gerdau-blue-txt"
                             required
                         />
@@ -63,7 +63,7 @@
                             type="email"
                             id="email_input"
                             name="email"
-                            placeholder="E-mail:"
+                            placeholder="E-mail corporativo:"
                             class="input-default half-input gerdau-blue-txt"
                             pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
                             required
@@ -95,7 +95,9 @@
                             class="input-default half-input gerdau-blue-txt"
                             required
                         >
-                            <option disabled selected value="Country" >País</option>
+                            <option disabled selected value="Country">
+                                País
+                            </option>
                             <option value="USA">América do Norte</option>
                             <option value="Canada">Canadá</option>
                             <option value="Argentina">Argentina</option>
@@ -103,7 +105,9 @@
                             <option value="Colombia">Colômbia</option>
                             <option value="Mexico">México</option>
                             <option value="Peru">Peru</option>
-                            <option value="DominicanRepublic">República Dominicana</option>
+                            <option value="DominicanRepublic">
+                                República Dominicana
+                            </option>
                             <option value="Uruguay">Uruguai</option>
                             <option value="Venezuela">Venezuela</option>
                         </select>
@@ -112,8 +116,7 @@
                             class="input-default half-input gerdau-blue-txt"
                             required
                         >
-                            <option disabled selected value >Unidade</option>
-                            
+                            <option disabled selected value>Unidade</option>
                         </select>
                         <!-- <input
                             type="text"
@@ -130,7 +133,7 @@
                             id="spacer_text"
                             class="gerdau-blue-txt gerdau-yellow-bg"
                         >
-                            Como você enxerga a gerdau para os próximos 120
+                            Como você enxerga a Gerdau para os próximos 120
                             anos?
                         </p>
                     </div>
@@ -156,6 +159,17 @@
                         </button>
                     </div>
                 </form>
+            </div>
+            <div id="modal" class="close">
+                <h3>Obrigado por enviar seu feedback</h3>
+                <p>Agradecemos!</p>
+                <button
+                    type="button"
+                    id="btn_close_modal"
+                    class="btn-default gerdau-blue-txt"
+                >
+                    fechar
+                </button>
             </div>
         </div>
     </body>
