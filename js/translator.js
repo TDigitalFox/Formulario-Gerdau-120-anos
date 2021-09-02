@@ -76,7 +76,7 @@ let translation_map = {
             thank_you_header: "Gracias por enviar sus comentarios.",
             thank_you_text: "Te agradecemos",
             btn_close_modal: "Fechar",
-            btn_enviar: "Send",
+            btn_enviar: "Enviar",
         },
     },
     en: {
@@ -113,7 +113,7 @@ let translation_map = {
             thank_you_header: "Thank you for submitting your feedback.",
             thank_you_text: "We thank you",
             btn_close_modal: "Close",
-            btn_enviar: "Enviar",
+            btn_enviar: "Send",
         },
     },
 };
