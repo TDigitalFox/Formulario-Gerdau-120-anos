@@ -35,6 +35,10 @@ let translation_map = {
             third_p: "O futuro se molda.",
             spacer_text:
                 "Como você enxerga a Gerdau para os próximos 120 anos?",
+            thank_you_header: "Obrigado por enviar seu feedback",
+            thank_you_text: "Nós te agradecemos!",
+            btn_close_modal: "Fechar",
+            btn_enviar: "Enviar",
         },
     },
     es: {
@@ -68,6 +72,11 @@ let translation_map = {
                 "Rellena el formulario al lado y participa en otro acto de celebración y colaboración como equipo Gerdau.",
             third_p: "El futuro se moldea.",
             spacer_text: "¿Como ves Gerdau en los próximos 120 años?",
+
+            thank_you_header: "Gracias por enviar sus comentarios.",
+            thank_you_text: "Te agradecemos",
+            btn_close_modal: "Fechar",
+            btn_enviar: "Send",
         },
     },
     en: {
@@ -101,6 +110,10 @@ let translation_map = {
                 "Fill in the form alongside and be part of another Gerdau team celebration and collaboration act.",
             third_p: "Shape the future.",
             spacer_text: "How do you see Gerdau over the next 120 years?",
+            thank_you_header: "Thank you for submitting your feedback.",
+            thank_you_text: "We thank you",
+            btn_close_modal: "Close",
+            btn_enviar: "Enviar",
         },
     },
 };
