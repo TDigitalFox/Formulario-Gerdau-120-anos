@@ -101,7 +101,7 @@ let translation_map = {
                 "Uruguay",
                 "Venezuela",
             ],
-            unity_select: ["Business Unity"],
+            unity_select: ["Business Unit"],
         },
         text: {
             first_p:
