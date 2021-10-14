@@ -121,10 +121,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
       "Escritório Sede São Paulo",
     ].sort(),
     Mexico: [
-      "Cd. Sahagún",
-      "Tultitlán",
-      "La Presa",
+      "Planta Cd. Sahagún",
+      "Planta Tultitlán",
+      "Planta La Presa",
       "Distribuição",
+      "Centro de distribución - Ciudad de México",
+      "Centro de distribución - Monterrey",
+      "Centros de acopio - Cd. Sahagún",
+      "Centros de acopio - La Presa",
+      "Centros de acopio - Los Reyes",
+      "Centros de acopio - Guadalajara",
+      "Centros de acopio - San Juan",
+      "Centros de acopio - Tultitlán",
+      "Centros de acopio - Veracruz",
       "CDMX Office",
       "Scrap Yard",
     ].sort(),
@@ -141,10 +150,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
       "Jackson MI",
       "Monroe",
       "Gerdau Next",
+      "Metals Recycling",
+      "Tampa Office",
+      "Huntington",
+      "Jackson MI Office",
+      "Jackson MI Mill",
     ].sort(),
-    Uruguay: ["Fábrica Montevideo"].sort(),
+    Uruguay: ["Montevideo"].sort(),
     Argentina: [
-      "Fábrica Pérez",
+      "Acería",
+      "Planta Pérez",
       "Oficina Perez",
       "Comercial Gerdau Rosario",
       "Comercial Gerdau Campana",
@@ -152,8 +167,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       "Comercial Gerdau La Rioja",
       "Comercial Gerdau Posadas",
     ].sort(),
-    Peru: ["Escritório Peru Lima", "Oficina Lima", "Fábrica Chimbote"].sort(),
-    Venezuela: ["Oficina Caracas", "Fábrica Ojeda"].sort(),
+    Peru: ["Oficina Lima", "Planta industrial - Chimbote"].sort(),
+    Venezuela: ["Oficina Caracas", "Planta Ciudad Ojeda"].sort(),
     Colombia: [
       "Bogotá e Cundinamarca",
       "Antioquia",
@@ -189,9 +204,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
     while (unit.options.length > 0) {
       unit.options.remove(0);
     }
-    Array.from(selectedOption).forEach(function (el) {
+    /* Array.from(selectedOption).forEach(function (el) {
       let option = new Option(el, el);
       unit.appendChild(option);
-    });
+    }); */
+
+    for (var i = 0; i < selectedOption.length; i++) {
+      let option = new Option(selectedOption[i], selectedOption[i]);
+      unit.options.add(option);
+    }
   });
 });
