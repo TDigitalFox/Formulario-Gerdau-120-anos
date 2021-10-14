@@ -9,7 +9,7 @@ let translation_map = {
             email_input: "Email corporativo",
             function_input: "Função",
             personal_number_input: "Número Pessoal",
-            message_input: "Digite Aqui (máximo de 120 caracteres)",
+            message_input: "Digite Aqui (máximo de 144 caracteres)",
         },
         select: {
             country_select: [
@@ -47,7 +47,7 @@ let translation_map = {
             email_input: "Email corporativo",
             function_input: "Posición",
             personal_number_input: "Número Personal",
-            message_input: "Escriba Aqui (120 caracteres como máximo)",
+            message_input: "Escriba Aqui (144 caracteres como máximo)",
         },
         select: {
             country_select: [
@@ -85,7 +85,7 @@ let translation_map = {
             email_input: "Corporate email",
             function_input: "Position",
             personal_number_input: "Personal Number",
-            message_input: "Type Here (120 characters maximum)",
+            message_input: "Type Here (144 characters maximum)",
         },
         select: {
             country_select: [
