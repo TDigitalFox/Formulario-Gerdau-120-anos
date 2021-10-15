@@ -28,7 +28,7 @@ function validate() {
   return true;
 }
 
-/* function ieFormValidation() {
+function ieFormValidation() {
   let isValid = false;
   let inputs = document.querySelectorAll("input");
   let selects = document.querySelectorAll("select");
@@ -55,7 +55,7 @@ function validate() {
     isValid = false;
   }
   return isValid;
-} */
+}
 
 function validateEmail(email) {
   if (

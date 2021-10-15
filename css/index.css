@@ -24,7 +24,6 @@ body {
   height: inherit;
   margin: 0;
   padding: 0;
-  position: relative;
 
   display: flex;
   flex-wrap: nowrap;
@@ -246,6 +245,9 @@ input:invalid {
     min-width: 660px !important;
     max-width: 660px !important;
   }
+  #form_wrapper select::-ms-expand {
+    display: none;
+  }
   #root {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -265,6 +267,14 @@ input:invalid {
   .language-selector.active {
     color: #00297f;
     border-bottom: 1px solid #00297f;
+  }
+  #modalie {
+    left: 39vw;
+    top: 39vh;
+  }
+  #modal {
+    left: 39vw;
+    top: 39vh;
   }
 }
 
