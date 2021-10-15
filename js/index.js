@@ -7,11 +7,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
     .querySelector("#btn_close_modal")
     .addEventListener("click", function (ev) {
       document.querySelector("#modal").classList.add("close");
+      /* document.querySelector("#modalie").classList.add("close"); */
     });
+  /* document
+    .querySelector("#btn_close_modalie")
+    .addEventListener("click", function (ev) {
+      document.querySelector("#modalie").classList.add("close");
+    }); */
 
   document
     .querySelector("#btn_enviar")
     .addEventListener("click", function (ev) {
+      /* if (!ieFormValidation()) {
+        document.querySelector("#modalie").classList.remove("close");
+      } */
       if (validate()) {
         console.log("submit");
         document.querySelector("#modal").classList.remove("close");
@@ -137,7 +146,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       "CDMX Office",
       "Scrap Yard",
     ].sort(),
-    Canada: ["Cambridge", "Manitoba - MRM", "Whitby", "Huntington Heat Treating"].sort(),
+    Canada: [
+      "Cambridge",
+      "Manitoba - MRM",
+      "Whitby",
+      "Huntington Heat Treating",
+    ].sort(),
     USA: [
       "Cartersville",
       "Charlotte",

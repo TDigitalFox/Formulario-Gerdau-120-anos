@@ -116,6 +116,21 @@ body {
   margin-top: 30px;
 }
 
+#modalie {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border: 0.5px solid #00000026;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 1px 1px 3px 2px #00000026;
+}
+#modalie.close {
+  display: none;
+}
+
 /* Default Elements */
 
 /* Divs/Containers */
@@ -197,14 +212,60 @@ input:invalid {
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: var(--gerdau-blue);
-  opacity: 0.5;
+  color: #00297f;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: var(--gerdau-blue);
   opacity: 0.5;
+}
+/* Internet Explorer 10 */
+@media screen and (min-width: 0\0) {
+  .gerdau-yellow-bg {
+    background-color: #ffd706;
+  }
+  .gerdau-blue-bg {
+    background-color: #00297f;
+  }
+  .gerdau-blue-txt {
+    color: #00297f;
+  }
+
+  .gerdau-yellow-txt {
+    color: #ffd706;
+  }
+  .btn-default {
+    border: 1px solid #00297f;
+  }
+
+  .btn-default:hover {
+    background-color: #ffd706;
+  }
+  #form_wrapper {
+    min-width: 660px !important;
+    max-width: 660px !important;
+  }
+  #root {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*Center horizontaly ie */
+    -ms-flex-pack: center;
+    height: 100%;
+    background-size: 120vw;
+  }
+  #spacer_text {
+    border: 1px solid #00297f;
+  }
+  .language-selector:hover {
+    color: #00297f;
+  }
+
+  .language-selector.active {
+    color: #00297f;
+    border-bottom: 1px solid #00297f;
+  }
 }
 
 /* Vars */
